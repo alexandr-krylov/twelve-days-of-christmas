@@ -12,6 +12,6 @@ fn main() {
      "Nine ladies dancing", "Ten lords a-leaping", "Eleven pipers piping",
      "Twelve drummers drumming"];
     for number_love in order.iter() {
-        println!("{},{:#?}", number_love, order.iter);
+        println!("{},{:#?}", number_love, order.iter());
     }
 }
